@@ -46,8 +46,8 @@ public class TestNextDate {
         @ParameterizedTest
         @CsvSource({
                 "12, 30, 2020, 12/31/2020",
-                "12, 31, 2021, Invalid Input Date",
-                "12, 31, 2020, 12/31/2021"
+                "12, 31, 2021, Invalid Next Year",
+                "12, 31, 2020, 1/1/2021"
         })
         public void testDecember(int month, int day, int year, String expectedOutput) {
             NextDate nextDate = new NextDate(month, day, year);
