@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StringSearch",
+            "request": "launch",
+            "mainClass": "stringsearch.StringSearch",
+            "projectName": "app"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
